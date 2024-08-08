@@ -1,16 +1,14 @@
-print("Hello,Welcome to my Simple  World!")
 
-
-
-
+# for loop
 fruits = ['apple', 'banana', 'cherry']
 for fruit in fruits:
     print(fruit)
 
-word = "hello"
+word = ["hello"]
 for leter in word:
     print(leter)
-
+    
+# While loop
 count = 1
 while count <= 6:
  print(count)
