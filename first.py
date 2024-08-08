@@ -17,5 +17,4 @@ while count <= 6:
  print(count)
  count += 1
 =======
-print("Hello,Welcome to my Simplerr World!")
->>>>>>> 5ce7874f229b28bf2d08963b8ef27d8a6f71ec62
+
