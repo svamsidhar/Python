@@ -15,43 +15,24 @@ while count <= 6:
  count += 1
 
 # for 
-word = ['one','two','three']
+word = ['one','two','three','four']
 for number in word:
-   print(number)
+   print(f"{number}")
 
-# if
-word = ['one','two','three']
-if 'one' in word:
-   print("it is there")
-else:
-   print("it is not there")
+#while break continue statements
 
-#and 
+count = 2
 
-a = True
-b = False
-
-result = a and b
-print(result)
-
-#not
-
-def is_even(num):
-    return num % 2 == 0
-
-def is_odd(num):
-    return not is_even(num)
-
-numbers = [1, 2, 3, 4, 5, 6]
-
-for number in numbers:
-    if is_odd(number):
-        print(f"{number} is odd")
-    else:
-        print(f"{number} is even")
-
-
-
+while count <= 20:
+    if count == 10:
+        print("count is equal to 10 iteration stops")
+        break
+    elif count % 2 == 0:
+         print("count is even,moving to next iteration")
+         count += 1
+         continue
+    print(f"current count is {count}")
+    count += 1
 
 
 
