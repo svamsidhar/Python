@@ -1,6 +1,6 @@
 print("Hello,Welcome to my Simple  World!")
 
-fruits = ['apple', 'banana', 'cherry']
+fruits = ['apple', 'banana', 'cherrry']
 for fruit in fruits:
     print(fruit)
 
